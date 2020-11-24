@@ -11,8 +11,5 @@
         "psr-4": {
             "Bizarg\\StringHelper\\": "src/"
         }
-    },
-    "require": {
-        "illuminate/support": "6.*"
     }
 }
