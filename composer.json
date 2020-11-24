@@ -1,0 +1,19 @@
+{
+    "name": "bizarg/string-helper",
+    "description": "string helper function",
+    "authors": [
+        {
+            "name": "Aleksandr",
+            "email": "aleksandr.chyzhevskiy@it-devgroup.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Bizarg\\StringHelper\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "6.*"
+    }
+}
