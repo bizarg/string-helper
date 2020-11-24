@@ -7,7 +7,6 @@
             "email": "aleksandr.chyzhevskiy@it-devgroup.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Bizarg\\StringHelper\\": "src/"
