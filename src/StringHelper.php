@@ -23,7 +23,7 @@ class StringHelper
      * @param string $input
      * @return string
      */
-    public static function toUnderscore(string $input)
+    public static function toUnderscore(string $input): string
     {
         return self::toGlue($input, '_');
     }
@@ -32,7 +32,7 @@ class StringHelper
      * @param string $input
      * @return string
      */
-    public static function toHyphen(string $input)
+    public static function toHyphen(string $input): string
     {
         return self::toGlue($input, '-');
     }
@@ -72,7 +72,7 @@ class StringHelper
      * @param string $input
      * @return string
      */
-    public static function upperCaseCamelCase(string $input)
+    public static function upperCaseCamelCase(string $input): string
     {
         return implode(array_map('ucfirst', self::match($input)));
     }
