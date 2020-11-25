@@ -3,12 +3,16 @@
     "description": "string helper function",
     "version": "1.0",
     "minimum-stability": "dev",
+    "license": "MIT",
     "authors": [
         {
             "name": "Aleksandr",
             "email": "aleksandr.chyzhevskiy@it-devgroup.com"
         }
     ],
+    "require": {
+        "php": ">=7.1"
+    },
     "autoload": {
         "psr-4": {
             "Bizarg\\StringHelper\\": "src/"

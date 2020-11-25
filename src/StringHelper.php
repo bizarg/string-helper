@@ -1,6 +1,6 @@
 <?php
 
-namespace Bizarg\StringCase;
+namespace Bizarg\StringHelper;
 
 /**
  * Class StringCase
