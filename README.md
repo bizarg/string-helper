@@ -1,4 +1,10 @@
 # string-helper
+```PHP
+<?php
+
+use Bizarg\StringHelper\StringHelper;
+
+require __DIR__ . '/vendor/autoload.php';
 
 StringHelper::camelCase('camel_case'); //camelCase
 StringHelper::upperCaseCamelCase('first_upper_camel_case'); //FirstUpperCamelCase
