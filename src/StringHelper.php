@@ -3,8 +3,8 @@
 namespace Bizarg\StringHelper;
 
 /**
- * Class StringCase
- * @package Api\Infrastructure\UseCase
+ * Class StringHelper
+ * @package Bizarg\StringHelper
  */
 class StringHelper
 {
